@@ -6,9 +6,6 @@ import Link from "next/link";
 
 /* const inter = Inter({ subsets: ["latin"] }); */
 
-
-
-
 export default function Home() {
   return (
     <>
@@ -20,7 +17,7 @@ export default function Home() {
     description={'Blog de musica'}
     >
     <h1>Hola mundo en Next</h1>
-    <Link href="/nosotros">Nosotros</Link>
+    <Link href="/nosotros">Inico</Link>
     </Layout>
     </>
   
